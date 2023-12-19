@@ -26,48 +26,47 @@ export default function About() {
     }
 
     return (
-    <div className='Container mx-3 my-3' style={mystyle}>
-        <h1 className='my-3'>About us</h1>
+    <div className='Container mx-10 my-3' style={mystyle}>
+        <h1 className='my-3 mx-3'>About us</h1>
             <div className="accordion" id="accordionExample">
         <div className="accordion-item" style={mystyle}>
             <h2 className="accordion-header">
             <button className="accordion-button" type="button" style={mystyle} data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Accordion Item #1
+                <strong>Analyze your text</strong>
             </button>
             </h2>
             <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            Analyzing a text involves breaking down its ideas and structure to understand it better, think critically about it, and draw conclusions. This unit covers different strategies for analyzing print and digital media, as well as how to create graphic organizers to help you analyze what you read.
             </div>
             </div>
         </div>
         <div className="accordion-item" style={mystyle}>
             <h2 className="accordion-header">
             <button className="accordion-button collapsed" type="button" style={mystyle} data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Accordion Item #2
+               <strong>Easy to use</strong>
             </button>
             </h2>
             <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            way of doing something is convenient, it is easy, or very useful or suitable for a particular purpose.
+...a flexible and convenient way of paying for business expenses. 
+The family thought it was more convenient to eat in the kitchen.
             </div>
             </div>
         </div>
         <div className="accordion-item" style={mystyle}>
             <h2 className="accordion-header">
             <button className="accordion-button collapsed" type="button" style={mystyle} data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Accordion Item #3
+                <strong>Browser compatible</strong>
             </button>
             </h2>
             <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            Browser compatibility, often known as cross-browser compatibility, refers to whether or not a website or web application functions as intended in any particular browser version on different devices.
             </div>
             </div>
         </div>
-        </div>
-        <div className="container my-3">
-            <button onClick={toggleStyle} type='button' className='btn btn-primary'>{btntext}</button>
         </div>
     </div>
     );
